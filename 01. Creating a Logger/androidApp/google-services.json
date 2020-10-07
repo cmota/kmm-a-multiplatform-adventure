@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "211891312315",
+    "firebase_url": "https://dcemea-2020.firebaseio.com",
+    "project_id": "dcemea-2020",
+    "storage_bucket": "dcemea-2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:211891312315:android:8bff60ef8e269b627dfb9e",
+        "android_client_info": {
+          "package_name": "com.cmota.playground.alltogethernow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "211891312315-ko94osafa057bfsiv640lhb8c8l28ciu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBdaJNQnliKA3Iai9hafMD0kwfPCtbgzAg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "211891312315-ko94osafa057bfsiv640lhb8c8l28ciu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,14 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+/androidApp/build
+/shared/build
+/iosApp/Pods
+/iosApp/Podfile.lock
+/shared/Pods

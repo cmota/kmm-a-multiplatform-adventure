@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/navigation_messages"
+        android:icon="@drawable/ic_android"
+        android:title="@string/navigation_droidcon"/>
+
+    <item
+        android:id="@+id/navigation_conferences"
+        android:icon="@drawable/ic_emoji_people"
+        android:title="@string/navigation_conferences"/>
+
+    <item
+        android:id="@+id/navigation_settings"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/navigation_settings"/>
+</menu>

@@ -1,0 +1,17 @@
+CREATE TABLE ConferenceModel (
+   id TEXT NOT NULL PRIMARY KEY,
+   name TEXT NOT NULL,
+   city TEXT NOT NULL,
+   country TEXT NOT NULL,
+   date TEXT NOT NULL,
+   logo TEXT NOT NULL,
+   website TEXT NOT NULL,
+   status TEXT NOT NULL
+);
+
+insertOrReplaceConference:
+INSERT OR REPLACE INTO ConferenceModel(id, name, city, country, date, logo, website, status) VALUES (?, ?, ?, ?, ?, ?, ?, ?);
+
+selectAllConferences:
+SELECT *
+FROM ConferenceModel;

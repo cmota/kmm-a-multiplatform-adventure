@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Firebase data -->
+    <string name="firebase_database_url" translatable="false">https://dcemea-2020.firebaseio.com</string>
+    <string name="google_app_id" translatable="false">1:211891312315:android:8bff60ef8e269b627dfb9e</string>
+    <string name="project_id" translatable="false">dcemea-2020</string>
+
+    <!-- App data -->
+    <string name="app_name">All together now</string>
+
+    <string name="navigation_droidcon">#dcEMEA</string>
+    <string name="navigation_conferences">Conferences</string>
+    <string name="navigation_settings">Settings</string>
+
+    <string name="messages_input_hint">Your messages go here</string>
+
+    <string name="messages_user">User</string>
+    <string name="messages_content">Content</string>
+
+    <string name="conference_name">Conference name</string>
+    <string name="conference_logo">Conference logo</string>
+    <string name="conference_location">Conference location</string>
+    <string name="conference_country">%s, %s</string>
+    <string name="conference_date">Conference date</string>
+    <string name="conference_status">Conference status</string>
+
+    <string name="settings_username">Your username</string>
+    <string name="settings_username_hint">Your username goes here</string>
+
+    <string name="settings_filter_online">Show only online conferences</string>
+</resources>
