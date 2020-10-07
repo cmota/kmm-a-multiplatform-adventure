@@ -104,7 +104,7 @@ class MessagesFragment : Fragment() {
 
     private fun sendMessage(content: String) {
         val message = hashMapOf(
-            "username" to "eu",
+            "username" to deviceName(),
             "content" to content,
             "timestamp" to "${System.currentTimeMillis()}"
         )

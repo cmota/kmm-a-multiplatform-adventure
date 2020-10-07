@@ -122,10 +122,10 @@ extension ChatViewController: UITableViewDelegate, UITableViewDataSource {
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         
         let message = messages[indexPath.row]
+        let isIncoming = message.user != PlatformDeviceKt.deviceName()
         
-        let cell = tableView.dequeueReusableCell(withIdentifier: !message.outgoing ? "IncomingMessageCell" : "OutgoingMessageCell", for: indexPath) as! ChatMessageCell
-        
-        cell.updateWithName(!message.outgoing ? message.user : "", message: message.content, isIncoming: !message.outgoing)
+        let cell = tableView.dequeueReusableCell(withIdentifier: isIncoming ? "IncomingMessageCell" : "OutgoingMessageCell", for: indexPath) as! ChatMessageCell
+        cell.updateWithName(isIncoming ? message.user : "", message: message.content, isIncoming: isIncoming)
         
         return cell
     }
