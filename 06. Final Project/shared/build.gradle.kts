@@ -26,7 +26,6 @@ sqldelight {
 kotlin {
     android()
 
-    /* If you don't have Xcode installed comment this code block*/
     val onPhone = System.getenv("SDK_NAME")?.startsWith("iphoneos") ?: false
     if (onPhone) {
         iosArm64("ios")
@@ -34,7 +33,6 @@ kotlin {
         iosX64("ios")
     }
 
-    /* If you don't have Xcode installed comment this code block*/
     cocoapods {
         // Configure fields required by CocoaPods.
         summary = "Some description for a Kotlin/Native module"
@@ -96,8 +94,6 @@ kotlin {
                 implementation("junit:junit:4.13")
             }
         }
-
-        /* If you don't have Xcode installed comment this code block*/
         val iosMain by getting {
             dependencies {
                 implementation("io.ktor:ktor-client-ios:1.4.1")
@@ -105,8 +101,6 @@ kotlin {
                 implementation("com.squareup.sqldelight:native-driver:1.4.3")
             }
         }
-
-        /* If you don't have Xcode installed comment this code block*/
         val iosTest by getting
     }
 }
@@ -125,8 +119,6 @@ android {
         }
     }
 }
-
-/* If you don't have Xcode installed comment this code block*/
 val packForXcode by tasks.creating(Sync::class) {
     group = "build"
     val mode = System.getenv("CONFIGURATION") ?: "DEBUG"
@@ -137,6 +129,4 @@ val packForXcode by tasks.creating(Sync::class) {
     from({ framework.outputDirectory })
     into(targetDir)
 }
-
-/* If you don't have Xcode installed comment this code block*/
 tasks.getByName("build").dependsOn(packForXcode)

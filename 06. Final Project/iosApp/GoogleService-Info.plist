@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>211891312315-hec1vpfavrgprc6v21no4ee3gu9qtr3u.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.211891312315-hec1vpfavrgprc6v21no4ee3gu9qtr3u</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCooUsN0WI9b-L3FfssAp9CtM_g5B9XhhI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>211891312315</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>playground.iosApp</string>
+	<key>PROJECT_ID</key>
+	<string>dcemea-2020</string>
+	<key>STORAGE_BUCKET</key>
+	<string>dcemea-2020.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:211891312315:ios:17ebf752668fe9977dfb9e</string>
+	<key>DATABASE_URL</key>
+	<string>https://dcemea-2020.firebaseio.com</string>
+</dict>
+</plist>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rl_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingStart="8dp"
+    android:paddingEnd="8dp"
+    android:paddingTop="4dp">
+
+    <LinearLayout
+        android:id="@+id/ll_message_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:padding="8dp"
+        android:background="@drawable/bg_message_outgoing"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_user"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messages_user"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/darker_gray"
+            android:fontFamily="@font/open_sans"/>
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/messages_content"
+            android:textSize="15sp"
+            android:textColor="@color/colorPrimary"
+            android:fontFamily="@font/open_sans"/>
+    </LinearLayout>
+</RelativeLayout>
